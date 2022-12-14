@@ -261,6 +261,15 @@
 
     <script src="https://kit.fontawesome.com/9e3f0a83f6.js" crossorigin="anonymous"></script>
 
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+    </script>
+
 </body>
 
 </html>
