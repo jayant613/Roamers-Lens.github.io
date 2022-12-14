@@ -226,6 +226,10 @@ header {
     gap: 30px;
 }
 
+#second-big-feature {
+    flex-direction: row-reverse;
+}
+
 .feature-img img {
     width: 90%;
 }
@@ -237,9 +241,14 @@ header {
 
 /* examples section */
 
+.examples-section {
+    padding: 80px var(--padding-inline-section);
+}
+
 .examples-header {
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 
 .examples-area {
@@ -316,4 +325,5 @@ footer {
 .subfooter-container {
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
